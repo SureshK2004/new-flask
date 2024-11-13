@@ -1,0 +1,70 @@
+
+body {
+    font-family: 'Dancing Script', cursive;
+    background: linear-gradient(135deg,#1a1a1a,#232323,#42423e);
+    color: #444444;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* Form styling */
+form {
+    color: #dddada;
+    padding: 20px;
+    border: 2px solid #dbdf12;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(156, 211, 6, 0.1);
+    width: 300px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px 0;
+    font-size: 1em;
+}
+
+/* Input fields */
+input[type="text"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #cf9010;
+    border-radius: 4px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+/* Read-only input field styling */
+input[readonly] {
+    background-color: #f1f1f1;
+    color: #f5f2f2;
+}
+
+/* Submit button styling */
+input[type="submit"] {
+    background-color:#a4af0e;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #cf9010;
+}

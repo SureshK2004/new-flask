@@ -1,0 +1,82 @@
+
+body {
+    font-family: 'Dancing Script', cursive;
+    background: linear-gradient(135deg,#1a1a1a,#232323,#42423e);
+    color: #444444;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* Form styling */
+form {
+    padding: 20px;
+    border: 2px solid aqua;
+    border-radius: 8px;
+    box-shadow: 0 8px 8px rgba(12, 197, 182, 0.1);
+    color: rgb(206, 203, 203);
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 8px;
+    font-size: 1em;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Submit button */
+input[type="submit"] {
+    background-color: #4154f1;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #717ff5;
+}
+
+/* Link styling */
+a {
+    color: antiquewhite;
+    text-decoration: none;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #4154f1;
+}

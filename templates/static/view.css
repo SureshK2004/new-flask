@@ -1,0 +1,66 @@
+
+body {
+    font-family: 'Dancing Script', cursive;
+    background: linear-gradient(135deg,#1a1a1a,#232323,#42423e);
+    color: #444444;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+}
+
+
+h2 {
+    margin-bottom: 20px;
+}
+
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    border-color: #b144b4;
+    
+}
+
+
+table, th, td {
+    border: 1px solid #b144b4;
+}
+
+thead {
+    /* background: rgb(2,0,36);
+     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(45,121,9,1) 35%, rgba(0,212,255,1) 100%); */
+    color: #ffffff;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,81,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+
+a {
+    color: #fff;
+    background-color:rgb(161, 15, 190);
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-right: 5px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #717ff5;
+}
+
+

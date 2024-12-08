@@ -1,0 +1,40 @@
+WANT TO CREATE NEW FOLDER ON DESKTOP
+-------------------------------------
+1.First want to create a environment
+python -m venv venv
+
+2.want to activate virutal environment
+cd v(tab) or cd venv
+cd s(tab) or cd Scripts
+a(tab) or activate
+cd..
+cd..
+
+3.Want to install flask
+pip install flask
+
+4.want to database mysql,or any database
+pip install mysqlclient
+
+5.go to folder and create a crud operation it is used to use our databases.
+named it as (crud.py)
+
+6.Go to folder and create a main folder to operation in this main folder we can use python functions.
+named it as (main.py)
+
+7.Go to folder and create a templates as folder in this folder we can store n number of html pages.
+named it as(templates) folder
+
+8.Go to folder and create a static as folder in this folder we can store n number of css pages.
+named it as (static) folder
+
+1.Main.py
+-------------
+from flask import *
+app=Flask(__name__)
+
+@app.route(/your_html-filename)
+def....
+After the function 
+if __name__=="__main__":
+app(port,debug=True)
